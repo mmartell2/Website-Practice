@@ -1,0 +1,28 @@
+
+body {
+    background-color: #2B9348;
+    background-image: url(img/wp2342140.jpeg);
+}
+
+.navbar-container {
+    background-color: #80B918;
+    border: solid #E9C46A 5px;
+    display: flex;
+}
+
+.nav-img {
+    border: solid #E9C46A 2px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.nav-h1 {
+    color: #2B9348;
+    
+}
+
+.nav-list {
+}
