@@ -1,28 +1,65 @@
 
 body {
-    background-color: #2B9348;
+    background-color: #1d1135;
     background-image: url(img/wp2342140.jpeg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .navbar-container {
-    background-color: #80B918;
-    border: solid #E9C46A 5px;
+    background-color: #1d1135;
+    border: solid #04C1E2 5px;
     display: flex;
+    padding: 0px;
+    
 }
 
 .nav-img {
-    border: solid #E9C46A 2px;
+    border: solid #04C1E2 2px;
     width: 150px;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-left: 20px;
     margin-bottom: 15px;
     
 }
 
 .nav-h1 {
-    color: #2B9348;
+    color: #5643fd;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 20px;
     
 }
 
 .nav-list {
+    list-style: none;
+    margin-left: 100px;
+}
+
+
+
+.nav-list li {
+    color: #5643fd;
+    display: inline-block;
+    font-size: 40px;
+    padding: 50px 20px;
+}
+
+.nav-list li:hover {
+    opacity: 50%;
+}
+
+.nav-list li:not(:last-child) {
+    border-right: #04C1E2 dotted 5px;
+}
+
+.nav-list li:not(:first-child) {
+    border-left: #0c164f solid 8px;
+}
+
+.nav-p {
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    color: #04C1E2;
 }
