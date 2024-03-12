@@ -1,4 +1,5 @@
 
+
 body {
     background-color: #1d1135;
     background-image: url(img/wp2342140.jpeg);
@@ -9,6 +10,7 @@ body {
     background-color: #1d1135;
     border: solid #04C1E2 5px;
     display: flex;
+    position: relative;
     padding: 0px;
     
 }
@@ -63,3 +65,42 @@ body {
     margin-left: 20px;
     color: #04C1E2;
 }
+
+.nav-list a {
+    text-decoration: none;
+    color: #5643fd;
+}
+
+.nav-list a:visited {
+    color: #5643fd;
+}
+
+.beg-list {
+   /* display: none; */
+    list-style: none;
+    background-color: #1d1135;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    border-bottom: #04C1E2 solid 5px;
+    border-left: #04C1E2 solid 5px;
+    border-right: #04C1E2 solid 5px;
+    padding: 15px 10px;
+    position: absolute;
+    left: 35rem;
+    top: 5.5rem;
+
+}
+
+.beg-list a{
+    text-decoration: none;
+}
+
+.beg-list a:hover{
+    opacity: 50%;
+}
+
+.beg-list a:visited {
+    color: #5643fd;
+}
+
